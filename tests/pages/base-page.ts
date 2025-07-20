@@ -45,7 +45,6 @@ export abstract class BasePage {
   async fillElement(element: Locator, text: string) {
     await test.step(`Filling element: ${element}`, async () => {
       await element.fill(text)
-      
     })
   }
 }
