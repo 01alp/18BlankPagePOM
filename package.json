@@ -12,10 +12,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This project is a **Test Automation Template** designed for the course at **Tallinn Learning School**. It is intended for learning and practicing:",
   "devDependencies": {
     "@faker-js/faker": "^9.2.0",
-    "@playwright/test": "^1.48.2",
+    "@playwright/test": "^1.54.1",
     "@types/node": "^22.9.0",
     "@typescript-eslint/eslint-plugin": "^8.14.0",
     "@typescript-eslint/parser": "^8.14.0",
@@ -24,6 +24,17 @@
     "globals": "^15.11.0",
     "prettier": "^3.3.3",
     "prettier-plugin-organize-imports": "^4.1.0",
-    "typescript": "^5.6.3"
-  }
+    "typescript": "^5.8.3"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/01alp/18BlankPagePOM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/01alp/18BlankPagePOM/issues"
+  },
+  "homepage": "https://github.com/01alp/18BlankPagePOM#readme"
 }
